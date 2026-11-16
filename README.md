@@ -1,8 +1,6 @@
 # Carfax Abbey
 
-<!-- PENDIENTE(logo): add the header logo (assets/images/carfax-logo.png, built by `npm run icons`) once it exists:
 <p align="center"><img src="https://raw.githubusercontent.com/rgsx/carfax-abbey/master/assets/images/carfax-logo.png" width="100" height="100"></p>
--->
 
 Gothic dark themes for Visual Studio Code and Cursor, named after the Count's English house in Bram Stoker's _Dracula_. Blood, rust and old gold, built for long sessions at night.
 
@@ -19,9 +17,15 @@ Both share one syntax palette and differ only in their backgrounds:
 
 Every color comes from a five-color base palette: gold `#af8b4d`, tarnished gold `#85530a`, blood `#610605`, rust `#642601` and oxblood `#500c00`. Each syntax role is lifted to the contrast ratio that [The Great Sleeper](https://open-vsx.org/extension/rgsx/great-dreamer) uses for it. Keywords are blood red, types rust, constants coral rose, and strings champagne gold, with a single cold steel blue for regular expressions.
 
-<!-- PENDIENTE(screenshots): no screenshots yet. Put full-window shots in assets/screenshots/src/
-(wine.png, wine-2.png, crypt.png, crypt-2.png), run `npm run screenshots`, then link
-assets/screenshots/{wine,crypt}-{1,2}.png here via raw.githubusercontent.com. -->
+## Carfax Abbey Wine
+
+![Carfax Abbey Wine in Cursor, split editors with TypeScript, CSS and Python, an inline diff, a git blame hover, split terminals and agent chat](https://raw.githubusercontent.com/rgsx/carfax-abbey/master/assets/screenshots/wine-1.png)
+![Carfax Abbey Wine in Cursor, three Rust files side by side (traits, generics, lifetimes, macros) and split terminals](https://raw.githubusercontent.com/rgsx/carfax-abbey/master/assets/screenshots/wine-2.png)
+
+## Carfax Abbey Crypt Black
+
+![Carfax Abbey Crypt Black in Cursor, split editors with TypeScript, CSS and Python, an inline diff, a git blame hover, split terminals and agent chat](https://raw.githubusercontent.com/rgsx/carfax-abbey/master/assets/screenshots/crypt-1.png)
+![Carfax Abbey Crypt Black in Cursor, three Rust files side by side (traits, generics, lifetimes, macros) and split terminals](https://raw.githubusercontent.com/rgsx/carfax-abbey/master/assets/screenshots/crypt-2.png)
 
 # Installation
 

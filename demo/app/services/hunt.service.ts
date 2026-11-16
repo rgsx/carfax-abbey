@@ -46,8 +46,7 @@ export class AbbeyComponent implements OnInit, OnDestroy {
 
   async ngOnInit(): Promise<void> {
     const ready = await this.service.trace({ id: 1, name: 'Harker' });
-    const pattern = /Carfax\s*(\d+)?/i;
-    if (ready && typeof this.boxes === 'number' && pattern.test(oldTrace(this.hunters[0]))) {
+    if (ready && typeof this.boxes === 'number') {
       this.form = Form.Mist;
     }
   }

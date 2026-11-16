@@ -8,6 +8,7 @@
     "vscode": "^1.80.0"
   },
   "publisher": "rgsx",
+  "icon": "assets/images/carfax-logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/rgsx/carfax-abbey"
