@@ -1,0 +1,61 @@
+{
+  "name": "carfax-abbey",
+  "displayName": "Carfax Abbey",
+  "description": "Gothic dark themes for VS Code and Cursor in blood, rust and old gold: Carfax Abbey Wine (dark purple-red) and Carfax Abbey Crypt Black (near-black).",
+  "version": "0.1.0",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "publisher": "rgsx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rgsx/carfax-abbey"
+  },
+  "homepage": "https://github.com/rgsx/carfax-abbey#readme",
+  "bugs": {
+    "url": "https://github.com/rgsx/carfax-abbey/issues"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "build:check": "node scripts/build.js --check",
+    "icons": "python3 scripts/make-icons.py",
+    "screenshots": "python3 scripts/make-screenshots.py",
+    "package": "npm run build && npx @vscode/vsce package",
+    "publish:ovsx": "npm run build && npx ovsx publish"
+  },
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Red Theme",
+    "Gold Theme",
+    "Wine",
+    "Black Theme",
+    "Gothic",
+    "Vampire",
+    "Dracula",
+    "Carfax Abbey",
+    "Cursor"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "galleryBanner": {
+    "color": "#110a0b",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Carfax Abbey Wine",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carfax-abbey-wine-color-theme.json"
+      },
+      {
+        "label": "Carfax Abbey Crypt Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carfax-abbey-crypt-black-color-theme.json"
+      }
+    ]
+  }
+}
